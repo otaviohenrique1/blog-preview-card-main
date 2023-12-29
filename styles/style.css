@@ -26,6 +26,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 10px 10px var(--black);
 }
 
 .imagem {
@@ -37,6 +38,11 @@ main {
   font-size: 1em;
   font-weight: 800;
   color: var(--black);
+  background-color: var(--yellow);
+  width: 18%;
+  padding: .45em;
+  text-align: center;
+  border-radius: .5em;
 }
 
 .data_publicacao {
